@@ -6,15 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<meta property="og:title" content="Lintas Samudera Jaya">
-	<meta property="og:description" content="Lintas Samudera Jaya adalah ...">
+	<meta property="og:title" content="Lintas Samudra Jaya">
+	<meta property="og:description" content="Lintas Samudra Jaya adalah ...">
 	<meta property="og:site_name" content="http://lsj-express.id/">
 	<meta property="og:locale" content="id-id">
 	<meta property="og:image" content="http://lsj-express.id/img/logo-oval.png">
 
 	<link rel="icon" href="img/logo.png" type="image/x-icon"/>
 	<link rel="shortcut icon" href="img/logo-oval.png" type="image/x-icon"/>
-	<title>Lintas Samudera Jaya</title>
+	<title>Lintas Samudra Jaya</title>
 
 	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -120,7 +120,7 @@
 		}
 
 		.row-card:hover{
-			background-color:#f8fcfd;
+			background-color: #f8fcfd;
 		}
 		.dropdown-card-title{
 			font-size: 10pt;
@@ -128,6 +128,57 @@
 
 		.dropdown-card-text{
 			font-size: 8pt;
+		}
+
+		/* untuk section */
+		.section-margin{
+			min-height: 400px;
+		}
+
+		.section-margin .container{
+			margin-top: -20px;
+		}
+
+		.back-welcome{
+			margin-top: 100px;
+			color: black;
+			background-image: url('img/backdrop/cargo3.jpg');
+			background-repeat: no-repeat;
+			background-size: 100% 165%;
+		}
+
+		.back-about{
+			background-color: #f2f9fc;
+		}
+
+		.section-margin .container{
+			padding-bottom: 30px;
+		}
+
+		/* untuk footer*/
+		.background-footer{
+			background-color: #f4f6f7;
+		}
+		.footer-copyright{
+			background-color: #2d8ece;
+		}
+
+		.content-footer{
+			padding-top: 10px;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+
+		.list-unstyled li{
+			margin-top: 5px;
+		}
+
+		.list-unstyled li a{
+			color: #737677;
+		}
+
+		.list-unstyled li a:hover{
+			color: #2d8ece;
 		}
 	</style>
 </head>
@@ -148,31 +199,36 @@
 				<div class="col-md-5">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-link disabled" href="#">Home</a>
+							<a class="nav-link disabled" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+							<a class="nav-link disabled" href="#about" tabindex="-1" aria-disabled="true">
 								Tentang Kami
 							</a>
 						</li>
-						<li class="nav-item dropdown ">
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#service" tabindex="-1" aria-disabled="true">
+								Layanan Kami
+							</a>
+						</li>
+						<!-- <li class="nav-item dropdown ">
 							<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Layanan Kami
 							</a>
 							<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">
+								<a class="dropdown-item" href="#service">
 									<i class="fa fa-truck"></i> Pengiriman Darat
 								</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">
+								<a class="dropdown-item" href="#service">
 									<i class="fa fa-ship"></i>	Pengiriman Laut
 								</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">
+								<a class="dropdown-item" href="#service">
 									<i class="fa fa-plane"></i> Pengiriman Udara
 								</a>
 							</div>
-						</li>
+						</li> -->
 						<li class="nav-item">
 							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
 								Careers
@@ -301,21 +357,208 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row">
+	<!-- Section Home -->
+	<section class="section-margin generic-margin back-welcome" id="home">
+		<div class="container">
+			<div class="section-intro text-center">
+				<h2><b>Selamat Datang di LSJ-Express</b></h2>
+				<p>Berbagai layanan menarik dari kami untuk anda</p>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					
+				</div>
+				<div class="col-md-8">
+					<div class="service-card text-center">
+						<div class="service-card-body">
+							<h3><b>Informasi Penting</b></h3>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					
+				</div>
+			</div>
+		</div>
+	</section>
 
-		</div>		
-	</div>
+	<!-- section tentang kami -->
+	<section class="section-margin generic-margin back-about" id="about">
+		<div class="container">
+			<div class="section-intro text-center">
+				<h2>Tentang LSJ-Express</h2>
+				<p>Berbagai layanan menarik dari kami untuk anda</p>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="service-card text-center">
+						<div class="service-card-body">
+							<h3>Sewa Transportasi</h3>
+							<p>Berbagai layanan sewa transportasi yang akan memudahkan perjalanan kamu antara lain, Jeep, MVP, Hiace, Elf, Bus, Pickup, Sepeda motor, Mobil TNI, dan Mobil Mewah. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="service-card text-center">
+						<div class="service-card-body">
+							<h3>Paket Wisata</h3>
+							<p> Kami telah menjalin kerjasama dengan berbagai penyedia wisata di Jawa Timur. Berbagai layanan kami adalah paket wisata Bromo, Malang, Batu, Surabaya, dan berbagai kawasan Jawa Timur lainnya, kami berkomitment akan terus mengembangkan jaringan ke seluruh penjuru Indonesia. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="service-card text-center">
+						<div class="service-card-body">
+							<h3>Custom Trip</h3>
+							<p> Layanan kemudahan customer untuk memilih tempat destinasi, waktu, fasilitas, tempat penjemputan sesuai keinginan.  </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- section layanan kami -->
+	<section class="section-margin generic-margin" id="service">
+		<div class="container">
+			<div class="section-intro text-center pb-90px">
+				<img class="section-intro-img" src="img/home/section-icon.png" alt="">
+				<h2>Layanan Kami</h2>
+				<p>Berbagai layanan menarik dari kami untuk anda</p>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="service-card text-center">
+						<div class="service-card-img">
+							<img class="img-fluid" src="img/blog/blog-2.png" alt="" style="width: 70%">
+						</div>
+						<div class="service-card-body">
+							<h3><i class="fa fa-truck"></i> Pengiriman Darat</h3>
+							<p>Berbagai layanan sewa transportasi yang akan memudahkan perjalanan kamu antara lain, Jeep, MVP, Hiace, Elf, Bus, Pickup, Sepeda motor, Mobil TNI, dan Mobil Mewah. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="service-card text-center">
+						<div class="service-card-img">
+							<img class="img-fluid" src="img/blog/blog-1.png" alt=""style="width: 70%">
+						</div>
+						<div class="service-card-body">
+							<h3><i class="fa fa-ship"></i> Pengiriman Laut</h3>
+							<p> Kami telah menjalin kerjasama dengan berbagai penyedia wisata di Jawa Timur. Berbagai layanan kami adalah paket wisata Bromo, Malang, Batu, Surabaya, dan berbagai kawasan Jawa Timur lainnya, kami berkomitment akan terus mengembangkan jaringan ke seluruh penjuru Indonesia. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="service-card text-center">
+						<div class="service-card-img">
+							<img class="img-fluid" src="img/blog/file-gambar.jpg" alt=""style="width: 90%">
+						</div>
+						<div class="service-card-body">
+							<h3><i class="fa fa-plane"></i> Pengiriman Udara</h3>
+							<p> Layanan kemudahan customer untuk memilih tempat destinasi, waktu, fasilitas, tempat penjemputan sesuai keinginan.  </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ini untuk Footer -->
+	<footer class="page-footer font-small pt-2 background-footer" style="margin-top: 10px">
+		<div class="container-fluid text-center text-md-left content-footer">
+			<div class="row">
+				<div class="col-md-5 mt-md-0 mt-3">
+					<a href="#"><h5 class="text-uppercase" style="color: black">
+						<i class="fa fa-home"></i> Kantor Kami :</h5>
+					</a>
+					<p style="color: #737677;">Jl. Raya Brigjen Katamso N o. 6 Waru Sidoarjo <br>
+						Telp. (031) 8670776 (Hunting) <br>
+					SMS Center +6283125477475</p>
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-4 mb-md-2 mb-3">
+					<h5 class="text-uppercase">Navigation Link :</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#home">Home</a>
+						</li>
+						<li>
+							<a href="#about">Tentang Kami</a>
+						</li>
+						<li>
+							<a href="#service">Layanan Kami</a>
+						</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+						<li>
+							<a href="#">Peluang Bisnis</a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="col-md-3 mb-md-2 mb-3">
+					<h5 class="text-uppercase">Cari Kami :</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!"><i class="fa fa-envelope"></i> lsj-express@gmail.com</a>
+						</li>
+						<li>
+							<a href="#!"><i class="fa fa-facebook"></i> @lsj-express.id</a>
+						</li>
+						<li>
+							<a href="#!"><i class="fa fa-instagram"></i> @lsj-express.id</a>
+						</li>
+						<li>
+							<a href="#!"><i class="fa fa-phone"></i> +6282330160832</a>
+						</li>
+						<li>
+							<a href="#!"><i class="fa fa-youtube"></i> @lsj-express.id</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="footer-copyright text-center py-4">
+			<a href="http://lsj-express.id/">
+				© 2019 Copyright : LSJ-Express.id
+			</a>
+		</div>
+	</footer>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="bootstrap/dist/js/template.js" type="text/javascript"></script>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		$("#btn-submit").hide();
 	});
+
+	$(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+          	scrollTop: $(hash).offset().top
+          }, 1000, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+  });
 </script>
 </html>
