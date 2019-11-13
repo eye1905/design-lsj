@@ -14,7 +14,7 @@ $(document).ready(function() {
 		$(".card-rounded").css("width", "17rem");
 		$(".card-rounded").css("margin-left", "20px");
 		$(".row-category").show();
-		$(".back-welcome").css("background-image", "url('img/banner.png')");
+		$(".back-welcome").css("background-image", "url('img/banner3.png')");
 	}
 
 	// when ready but inframe inspect
@@ -33,7 +33,7 @@ $(document).ready(function() {
 			$(".card-rounded").css("width", "17rem");
 			$(".card-rounded").css("margin-left", "20px");
 			$(".row-category").show();
-			$(".back-welcome").css("background-image", "url('img/banner.png')");
+			$(".back-welcome").css("background-image", "url('img/banner3.png')");
 		}
 	});
 });
