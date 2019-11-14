@@ -9,6 +9,9 @@ $(document).ready(function() {
 		$(".d-inline-flex").css("min-width", "100%");
 		$("#row-content").css("margin-top", "-60%");
 		$(".card-middle").css("height", "80%");
+		$(".card-service").css("width", "80%");
+		$(".card-service").css("margin-left", "10%");
+		//$("#row-card-content").addClass("text-center");
 	}
 	else {
 		$(".nav-item1").css("margin-left", "10px");
@@ -18,6 +21,7 @@ $(document).ready(function() {
 		$(".row-category").show();
 		$(".d-inline-flex").css("min-width", "545px");
 		$("#row-content").css("margin-top", "-40%");
+		$(".card-service").css("width", "100%");
 	}
 
 	// when ready but inframe inspect
@@ -31,6 +35,9 @@ $(document).ready(function() {
 			$(".d-inline-flex").css("min-width", "100%");
 			$("#row-content").css("margin-top", "-60%");
 			$(".card-middle").css("height", "80%");
+			$(".card-service").css("width", "80%");
+			$(".card-service").css("margin-left", "10%");
+			//$("#row-card-content").addClass("text-center");
 		}
 		else {
 			$(".nav-item1").css("margin-left", "10px");
@@ -40,6 +47,7 @@ $(document).ready(function() {
 			$(".row-category").show();
 			$(".d-inline-flex").css("min-width", "545px");
 			$("#row-content").css("margin-top", "-40%");
+			$(".card-service").css("width", "100%");
 		}
 	});
 
