@@ -6,7 +6,9 @@ $(document).ready(function() {
 		$(".card-rounded").css("width", "22rem");
 		$(".card-rounded").css("margin-left", "5px");
 		$(".row-category").hide();
-		$(".back-welcome").css("background-image", "url('img/banner2.png')");
+		$(".d-inline-flex").css("min-width", "100%");
+		$("#row-content").css("margin-top", "-60%");
+		$(".card-middle").css("height", "80%");
 	}
 	else {
 		$(".nav-item1").css("margin-left", "10px");
@@ -14,7 +16,8 @@ $(document).ready(function() {
 		$(".card-rounded").css("width", "17rem");
 		$(".card-rounded").css("margin-left", "20px");
 		$(".row-category").show();
-		$(".back-welcome").css("background-image", "url('img/banner3.png')");
+		$(".d-inline-flex").css("min-width", "545px");
+		$("#row-content").css("margin-top", "-40%");
 	}
 
 	// when ready but inframe inspect
@@ -25,7 +28,9 @@ $(document).ready(function() {
 			$(".card-rounded").css("width", "22rem");
 			$(".card-rounded").css("margin-left", "5px");
 			$(".row-category").hide();
-			$(".back-welcome").css("background-image", "url('img/banner2.png')");
+			$(".d-inline-flex").css("min-width", "100%");
+			$("#row-content").css("margin-top", "-60%");
+			$(".card-middle").css("height", "80%");
 		}
 		else {
 			$(".nav-item1").css("margin-left", "10px");
@@ -33,7 +38,10 @@ $(document).ready(function() {
 			$(".card-rounded").css("width", "17rem");
 			$(".card-rounded").css("margin-left", "20px");
 			$(".row-category").show();
-			$(".back-welcome").css("background-image", "url('img/banner3.png')");
+			$(".d-inline-flex").css("min-width", "545px");
+			$("#row-content").css("margin-top", "-40%");
 		}
 	});
+
+	jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 1000  // 2 seconds
 });
