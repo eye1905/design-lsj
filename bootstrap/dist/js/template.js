@@ -8,7 +8,7 @@ $(document).ready(function() {
 		$(".row-category").hide();
 		$(".d-inline-flex").css("min-width", "100%");
 		$("#row-content").css("margin-top", "-60%");
-		$(".card-middle").css("height", "80%");
+		$(".card-middle").css("min-height", "80%");
 		$(".card-service").css("width", "80%");
 		$(".card-service").css("margin-left", "10%");
 		//$("#row-card-content").addClass("text-center");
@@ -34,7 +34,7 @@ $(document).ready(function() {
 			$(".row-category").hide();
 			$(".d-inline-flex").css("min-width", "100%");
 			$("#row-content").css("margin-top", "-60%");
-			$(".card-middle").css("height", "80%");
+			$(".card-middle").css("min-height", "80%");
 			$(".card-service").css("width", "80%");
 			$(".card-service").css("margin-left", "10%");
 			//$("#row-card-content").addClass("text-center");
