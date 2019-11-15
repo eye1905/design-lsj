@@ -50,6 +50,4 @@ $(document).ready(function() {
 			$(".card-service").css("width", "100%");
 		}
 	});
-
-	jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 1000  // 2 seconds
 });

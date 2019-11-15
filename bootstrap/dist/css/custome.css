@@ -16,65 +16,13 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
-.card{
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.10);
-}
-.row {
-	margin-top: 10px;
-}
 
 .carousel-inner{
-	max-height: 350px;
+	max-height: 450px;
 }
 
 .carousel-inner .carousel-item{
-	max-height: 350px;
-}
-
-.btn-shadow{
-	background-color: #fff;
-	border-radius: 30px; 
-	color: grey;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.10);
-	margin-top: 10px;
-	margin-left: 3px;
-}
-
-.btn-shadow:hover{
-	z-index: 1000;
-	-moz-transform: scale(1.08);
-	-webkit-transform: scale(1.08);
-	-o-transform: scale(1.08);
-	-ms-transform: scale(1.08);
-	-webkit-transform: scale(1.08);
-	transform: scale(1.5);
-
-	-webkit-transition: transform 1s ease-in-out;
-	-moz-transition:transform 1s ease-in-out;
-	-ms-transition:transform 1s ease-in-out;
-}
-
-.img-rounded{
-	border-radius: 20px 20px 0px 0px;
-}
-
-.card-rounded{
-	margin-top: 20px;
-	border-radius: 20px 20px 0px 0px;
-}
-
-.card-rounded:hover{
-	z-index: 1000;
-	-moz-transform: scale(1.08);
-	-webkit-transform: scale(1.08);
-	-o-transform: scale(1.08);
-	-ms-transform: scale(1.08);
-	-webkit-transform: scale(1.08);
-	transform: scale(1.2);
-
-	-webkit-transition: transform 1s ease-in-out;
-	-moz-transition:transform 1s ease-in-out;
-	-ms-transition:transform 1s ease-in-out;
+	max-height: 450px;
 }
 
 .btn-rounded{
@@ -87,25 +35,194 @@ a{
 	border-color: #25C6DA;
 }
 
-.text-dollar{
+.nav-item{
+	color: blue;
+}
+
+.nav-item a:hover{
+	color: red;
+}
+
+/* for list di sidebar*/
+.components li{
+	color: grey;
+}
+.components li a{
+	font-size: 11pt;
+	color: grey;
+}
+
+/* list navbar content */
+.list-nav{
+	min-height: 40px;
+}
+.list-nav a{
+	text-decoration: none;
+}
+
+.list-nav a:hover{
 	color: #25C6DA;
 }
 
-.card-title{
+.list-nav ul{
+	margin-left: 7px;
+}
+
+/*list sidebar when open by phoe*/
+.sidebar-list li a{
+	margin-left: 10px;
+	font-size: 12pt;
+}
+
+.list-side{
+	min-height: 50px;
+}
+
+.list-side a{
+	text-decoration: none;
+}
+
+.list-side a:hover{
+	color: #25C6DA;
+}
+
+.list-side ul{
+	margin-left: 10px;
+}
+
+/*for carousel content*/
+.carousel-title{
+	color: red;
+}
+
+/*for header list*/
+.dropdown-menu-card{
+	width: 300px;
+
+}
+.img-card-rounded{
+	margin-top: 8px;
+	border-radius: 5px;
+}
+.row-card{
+	margin-right: 1px;
+	margin-left: 1px;
+}
+
+.row-card:hover{
+	background-color: #f8fcfd;
+}
+.dropdown-card-title{
+	font-size: 10pt;
+}
+
+.dropdown-card-text{
+	font-size: 8pt;
+}
+
+/* untuk section */
+.section-margin{
+	min-height: 500px;
+}
+
+.section-margin .container{
+	margin-top: -20px;
+}
+
+.back-welcome{
+	color: black;
+	background-image: url('img/banner3.jpg');
+	background-repeat: no-repeat;
+}
+
+.back-carrousel{
+	margin-top: 100px;
+}
+
+.back-about{
+	background-color: #f2f9fc;
+}
+
+.section-margin .container{
+	padding-bottom: 30px;
+}
+
+.card-middle{
+	background-color: #25C6DA;
+}
+
+.img-middle{
+	width: 60%;
+}
+
+.card-wing{
 	margin-top: 10px;
+	background-color: #fff;
+	margin-bottom: 10px;
 }
 
-.card-text{
-	margin-top: -12px;
+.img-wing{
+	margin-top: 10px;
+	width: 40%;
+	height: 60%;
 }
 
-.list-unstyled a:hover{
-	color: #007bff;
+/* untuk footer*/
+.background-footer{
+	background-color: #f4f6f7;
+}
+.footer-copyright{
+	background-color: #2d8ece;
 }
 
-.text-footer{
-	color: #fff;
+.content-footer{
+	padding-top: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
-.text-footer:hover{
-	color: #007bff;
+
+.list-unstyled li{
+	margin-top: 5px;
+}
+
+.list-unstyled li a{
+	color: #737677;
+}
+
+.list-unstyled li a:hover{
+	color: #2d8ece;
+}
+
+.content-div{
+	margin-top: -30%;
+}
+.carousel-inner .carousel-item {
+	transition: -webkit-transform 1s ease;
+	transition: transform 1s ease;
+	transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.bg-outline{
+	background-color: #f8b81d;
+	border-color: #f8b81d;
+	border-radius: 10px;
+}
+
+.card-service{
+	margin-top: 5px;
+	min-height: 315px;
+}
+
+.card-service:hover{
+	z-index: 1000;
+	-moz-transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	transform: scale(1.1);
+
+	-webkit-transition: transform 1s ease-in-out;
+	-moz-transition:transform 1s ease-in-out;
+	-ms-transition:transform 1s ease-in-out;
 }
