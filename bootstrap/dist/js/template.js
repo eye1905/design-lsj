@@ -11,6 +11,7 @@ $(document).ready(function() {
 		$(".card-middle").css("min-height", "80%");
 		$(".card-service").css("width", "80%");
 		$(".card-service").css("margin-left", "10%");
+		$("#img-top").css("width", "100%");
 		//$("#row-card-content").addClass("text-center");
 	}
 	else {
@@ -22,6 +23,7 @@ $(document).ready(function() {
 		$(".d-inline-flex").css("min-width", "545px");
 		$("#row-content").css("margin-top", "-40%");
 		$(".card-service").css("width", "100%");
+		$("#img-top").css("width", "150%");
 	}
 
 	// when ready but inframe inspect
@@ -37,9 +39,11 @@ $(document).ready(function() {
 			$(".card-middle").css("min-height", "80%");
 			$(".card-service").css("width", "80%");
 			$(".card-service").css("margin-left", "10%");
+			$("#img-top").css("width", "100%");
 			//$("#row-card-content").addClass("text-center");
 		}
 		else {
+			$("#img-top").css("width", "150%");
 			$(".nav-item1").css("margin-left", "10px");
 			$(".page-slide").show();
 			$(".card-rounded").css("width", "17rem");
